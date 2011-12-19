@@ -1,0 +1,24 @@
+#GENERAL
+*.class
+.classpath
+.project
+.DS_Store
+
+#WEB PROJECT
+src/main/webapp/WEB-INF/classes
+lib/
+
+#ANDROID
+# built application files
+#*.apk
+#*.ap_
+
+# files for the dex VM
+#*.dex
+
+# generated files
+bin/
+#gen/
+
+# Local configuration file (sdk path, etc)
+#local.properties
