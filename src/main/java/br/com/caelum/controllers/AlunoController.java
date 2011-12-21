@@ -29,10 +29,8 @@ public class AlunoController {
 	
 	@Post("/backup")
 	@Consumes("application/json")
-	public void backup(List<Aluno> list) {
-		System.out.println(list);
-//		result.use(Results.nothing());
-		result.use(Results.json()).from(list).serialize();
+	public void backup(List<Aluno> alunos) {
+		result.use(Results.json()).from(alunos).serialize();
 	}
 	
 	@Get("/listaTodosAlunos")

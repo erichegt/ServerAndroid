@@ -4,9 +4,11 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+
 
 @Entity
-//@XStreamAlias("aluno")
+@XStreamAlias("aluno")
 public class Aluno {
 	@Id @GeneratedValue
 	private long id;
