@@ -22,3 +22,10 @@ bin/
 
 # Local configuration file (sdk path, etc)
 #local.properties
+
+# Server Temporary file
+tmp/
+
+# Intellij Project File
+*.iml
+.idea/
