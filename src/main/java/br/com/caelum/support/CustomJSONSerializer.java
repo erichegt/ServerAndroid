@@ -16,10 +16,10 @@ import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 @Component
-public class CustomJsonSerializer extends XStreamJSONSerialization {
+public class CustomJSONSerializer extends XStreamJSONSerialization {
 	private Class<?>[] types;
 
-	public CustomJsonSerializer(HttpServletResponse response,
+	public CustomJSONSerializer(HttpServletResponse response,
 			TypeNameExtractor extractor, ProxyInitializer initializer) {
 		
 		super(response, extractor, initializer);
